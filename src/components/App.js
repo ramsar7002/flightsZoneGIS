@@ -1,15 +1,13 @@
 import React from "react";
-import MapComp from "./MapComp";
-import Sidebar from "./Sidebar";
 
-const App = () => {
+import Menu from "./Menu";
+
+const App = ({ Component }) => {
   return (
-    <div class="ui grid">
-      <div class="six wide column sidebar">
-        <Sidebar />
-      </div>
-      <div class="ten wide column">
-        <MapComp />
+    <div>
+      <div>
+        <Menu />
+        {Component}
       </div>
     </div>
   );

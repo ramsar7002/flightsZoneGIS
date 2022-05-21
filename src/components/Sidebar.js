@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div class="sidebar">
       <ul class="workouts">
-        <form class="form ">
+        <form class="form_m ">
           <div class="form__row">
             <label class="form__label">Type</label>
             <select class="form__input form__input--type">
