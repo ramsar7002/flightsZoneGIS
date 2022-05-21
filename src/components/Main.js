@@ -5,10 +5,10 @@ import MapComp from "./MapComp";
 const Main = (params) => {
   return (
     <div class="ui grid">
-      <div class="six wide column sidebar">
+      <div class="four wide column sidebar_m">
         <Sidebar />
       </div>
-      <div class="ten wide column">
+      <div class="twelve wide column">
         <MapComp />
       </div>
     </div>

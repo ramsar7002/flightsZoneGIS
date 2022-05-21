@@ -14,7 +14,7 @@ const menuItemClick = (e) => {
 
 function Menu() {
   return (
-    <div className="ui inverted segment">
+    <div className="ui inverted segment main_menu">
       <div
         className="ui inverted secondary menu"
         onClick={(e) => menuItemClick(e)}

@@ -1,5 +1,5 @@
 .leaflet-container {
-  height: 100vh;
+  height: 95%;
 }
 
 :root {
@@ -19,10 +19,11 @@
   box-sizing: inherit;
 }
 
-/* html {
-  font-size: 62.5%;
+html {
   box-sizing: border-box;
-} */
+  font-size: 72.5%;
+  background-color: var(--color-dark--1);
+}
 
 body {
   font-family: "Manrope", sans-serif;
@@ -32,7 +33,6 @@ body {
   overscroll-behavior-y: none;
 
   background-color: #fff;
-  padding: 2.5rem;
 }
 
 /* GENERAL */
@@ -40,8 +40,11 @@ a:link,
 a:visited {
   color: var(--color-brand--1);
 }
+.main_menu {
+  font-size: 50px;
+}
 
-SIDEBAR .sidebar {
+.sidebar_m {
   height: 100vh;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
@@ -93,7 +96,7 @@ SIDEBAR .sidebar {
 }
 
 .workout__title {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
   grid-column: 1 / -1;
   float: left;
@@ -105,18 +108,18 @@ SIDEBAR .sidebar {
 }
 
 .workout__icon {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-right: 0.2rem;
   height: 0.28rem;
 }
 
 .workout__value {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-right: 0.5rem;
 }
 
 .workout__unit {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: var(--color-light--1);
   text-transform: uppercase;
   font-weight: 800;
@@ -155,7 +158,7 @@ SIDEBAR .sidebar {
 
 .form__label {
   flex: 0 0 50%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -163,7 +166,7 @@ SIDEBAR .sidebar {
   width: 100%;
   padding: 0.3rem 1.1rem;
   font-family: inherit;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   border: none;
   border-radius: 3px;
   background-color: var(--color-light--3);
@@ -181,7 +184,7 @@ SIDEBAR .sidebar {
 
 .copyright {
   margin-top: auto;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
   color: var(--color-light--1);
 }
@@ -197,12 +200,11 @@ SIDEBAR .sidebar {
   color: var(--color-light--2);
 }
 
-/* MAP */
-/* #map {
+MAP #map {
   flex: 1;
   height: 100%;
   background-color: var(--color-light--1);
-} */
+}
 
 /* Popup width is defined in JS using options */
 .leaflet-popup .leaflet-popup-content-wrapper {
