@@ -1,5 +1,5 @@
-# 💻📱📞 VulnWebsite 
-## vulnerable website - cyber security course project
+# 💻📱 flightsZone 
+## flightsZone website - GIS course project
 This project is a customer managemet web application and REST API for a communication company.
 By design, this application is vulnerable for SQLi attacks, XSS attacks and more. 😈😈
 
