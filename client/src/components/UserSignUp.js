@@ -1,8 +1,8 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
-import SignIn from "./SignIn";
+// import SignIn from "./SignIn";
 import App from "./App";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function UserSignUp() {
   const [firstName, setFirstName] = useState("");
@@ -11,12 +11,12 @@ function UserSignUp() {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
 
-  const [addUser, setAddUser] = useState(false);
+  // const [addUser, setAddUser] = useState(false);
   const [userCreated, setUserCreated] = useState(false);
   const [signUpErr, setSignUpErr] = useState("");
 
   const addNewUserBtnClicked = async (e) => {
-    setAddUser(true);
+    // setAddUser(true);
     setUserCreated(false);
     const url = "https://localhost:9000/register";
 
@@ -43,7 +43,7 @@ function UserSignUp() {
       });
 
     if (res && res.status === 200) {
-      setAddUser(false);
+      // setAddUser(false);
       setUserCreated(true);
       // setFirstName("");
       // setLastName("");

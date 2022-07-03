@@ -1,62 +1,112 @@
 import React, { useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker, Popup, Polygon } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Polygon } from "react-leaflet";
+import Popup from "react-leaflet-editable-popup";
 import "../style.css";
-import "leaflet/dist/leaflet.css";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import { Icon } from "leaflet";
-
-const position = [32.109333, 35.295499];
+import { useMapEvents } from "react-leaflet/hooks";
 
 const fillBlueOptions = { fillColor: "blue" };
-const blackOptions = { color: "black" };
-const limeOptions = { color: "lime" };
-const purpleOptions = { color: "purple" };
-const redOptions = { color: "red" };
+// const blackOptions = { color: "black" };
+// const limeOptions = { color: "lime" };
+// const purpleOptions = { color: "purple" };
+// const redOptions = { color: "red" };
 
 const MapComp = () => {
-  const [locations, setLocations] = useState();
+  const position = [32.109333, 35.295499];
+
+  const [locations, setLocations] = useState(null);
 
   useEffect(() => {
-    const loadData = async () => {
-      await fetch("https://localhost:9000")
-        .then((res) => res.json())
-        .then((data) => {
-          setLocations(data.locations);
-        });
-    };
     loadData();
   }, []);
 
+  const loadData = async () => {
+    await fetch("https://localhost:9000")
+      .then((res) => res.json())
+      .then((data) => {
+        data.locations.map((item) => {
+          item.wkt = item.wkt.map((coords) => {
+            let arr = [];
+            arr.push(coords[1]);
+            arr.push(coords[0]);
+            return arr;
+          });
+        });
+        setLocations(data.locations);
+      });
+  };
+
   const loadJson = () => {
     return locations?.map((item) => (
-      <Polygon pathOptions={fillBlueOptions} positions={item.wkt} />
+      <Polygon
+        key={item.wkt[0]}
+        pathOptions={fillBlueOptions}
+        positions={item.wkt}
+      />
     ));
   };
 
+  const createMarkers = () => {
+    return locations?.map((item) =>
+      item.wkt.map((coor, i) => {
+        if (i % 200 === 0) {
+          return (
+            <Marker
+              key={coor[0]}
+              position={[coor[0], coor[1]]}
+              icon={
+                new Icon({
+                  iconUrl: markerIconPng,
+                  iconSize: [20, 35],
+                  iconAnchor: [25, 25],
+                  shadowSize: [0, 0],
+                })
+              }
+            >
+              <Popup>
+                {item.description.length > 5 ? item.description : "location"}
+              </Popup>
+            </Marker>
+          );
+        } else {
+          return <div></div>;
+        }
+      })
+    );
+  };
+
+  function LocationMarker() {
+    const [position, setPosition] = useState(null);
+    const map = useMapEvents({
+      click() {
+        map.locate();
+      },
+      locationfound(e) {
+        setPosition(e.latlng);
+        map.flyTo(e.latlng, map.getZoom());
+      },
+    });
+
+    return position === null ? null : (
+      <Marker position={position}>
+        <Popup>You are here</Popup>
+      </Marker>
+    );
+  }
+
   return (
-    <MapContainer center={position} zoom={8} scrollWheelZoom={true}>
+    <MapContainer center={position} zoom={10} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      <Marker
-        position={[position[0], position[1]]}
-        icon={
-          new Icon({
-            iconUrl: markerIconPng,
-            iconSize: [20, 35],
-            iconAnchor: [12, 41],
-          })
-        }
-      >
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
+      {/* {createMarkers()} */}
 
       {loadJson()}
+      {/* <LocationMarker /> */}
     </MapContainer>
   );
 };

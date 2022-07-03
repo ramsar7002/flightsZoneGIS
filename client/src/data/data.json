@@ -2,7 +2,7 @@
     "locations": [
         {
             "name": " ",
-            "description": "LLP01    <br>       <br>   FID   19    <br>   Id   0    <br>   Name   LLP01    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   1500    <br>   Lable   LLP01 GND-1500    <br>   Reference   שמורות טבע    <br>   Nick   החולה",
+            "description": "LLP01    \n       \n   FID   19    \n   Id   0    \n   Name   LLP01    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   1500    \n   Lable   LLP01 GND-1500    \n   Reference   שמורות טבע    \n   Nick   החולה",
             "tessellate": " ",
             "wkt": [
                 [
@@ -69,7 +69,7 @@
         },
         {
             "name": " ",
-            "description": "LLP03    <br>       <br>   FID   0    <br>   Id   0    <br>   Name   LLP03    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   3000    <br>   Lable   LLP03 MSL/GND-3000    <br>   Reference   סגור בטחונית    <br>   Nick   קריות",
+            "description": "LLP03    `\n`       \n   FID   0    \n   Id   0    \n   Name   LLP03    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   3000    \n   Lable   LLP03 MSL/GND-3000    \n   Reference   סגור בטחונית    \n   Nick   קריות",
             "tessellate": " ",
             "wkt": [
                 [
@@ -100,7 +100,7 @@
         },
         {
             "name": " ",
-            "description": "LLP04    <br>       <br>   FID   1    <br>   Id   0    <br>   Name   LLP04    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   3000    <br>   Lable   LLP04 GND-3000    <br>   Reference   סגור בטחונית    <br>   Nick   בתי הזיקוק",
+            "description": "LLP04    \n       \n   FID   1    \n   Id   0    \n   Name   LLP04    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   3000    \n   Lable   LLP04 GND-3000    \n   Reference   סגור בטחונית    \n   Nick   בתי הזיקוק",
             "tessellate": " ",
             "wkt": [
                 [
@@ -135,7 +135,7 @@
         },
         {
             "name": " ",
-            "description": "LLP05    <br>       <br>   FID   2    <br>   Id   0    <br>   Name   LLP05    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2000    <br>   Lable   LLP05 MSL/GND-2000    <br>   Reference   סגור בטחונית    <br>   Nick   עתלית",
+            "description": "LLP05    \n       \n   FID   2    \n   Id   0    \n   Name   LLP05    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2000    \n   Lable   LLP05 MSL/GND-2000    \n   Reference   סגור בטחונית    \n   Nick   עתלית",
             "tessellate": " ",
             "wkt": [
                 [
@@ -166,7 +166,7 @@
         },
         {
             "name": " ",
-            "description": "LLP06    <br>       <br>   FID   3    <br>   Id   0    <br>   Name   LLP06    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2000    <br>   Lable   LLP06 GND-2000    <br>   Reference   סגור בטחונית    <br>   Nick   קיסריה",
+            "description": "LLP06    \n       \n   FID   3    \n   Id   0    \n   Name   LLP06    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2000    \n   Lable   LLP06 GND-2000    \n   Reference   סגור בטחונית    \n   Nick   קיסריה",
             "tessellate": " ",
             "wkt": [
                 [
@@ -217,7 +217,7 @@
         },
         {
             "name": " ",
-            "description": "LLP07    <br>       <br>   FID   4    <br>   Id   0    <br>   Name   LLP07    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2000    <br>   Lable   LLP07 MSL/GND-2000    <br>   Reference   סגור בטחונית    <br>   Nick   חדרה",
+            "description": "LLP07    \n       \n   FID   4    \n   Id   0    \n   Name   LLP07    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2000    \n   Lable   LLP07 MSL/GND-2000    \n   Reference   סגור בטחונית    \n   Nick   חדרה",
             "tessellate": " ",
             "wkt": [
                 [
@@ -628,7 +628,7 @@
         },
         {
             "name": " ",
-            "description": "LLP08    <br>       <br>   FID   5    <br>   Id   0    <br>   Name   LLP08    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   1100    <br>   Lable   LLP08 GND-1100    <br>   Reference   סגור בטחונית    <br>   Nick   רמת השרון",
+            "description": "LLP08    \n       \n   FID   5    \n   Id   0    \n   Name   LLP08    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   1100    \n   Lable   LLP08 GND-1100    \n   Reference   סגור בטחונית    \n   Nick   רמת השרון",
             "tessellate": " ",
             "wkt": [
                 [
@@ -683,7 +683,7 @@
         },
         {
             "name": " ",
-            "description": "LLP09    <br>       <br>   OBJECTID_1   9    <br>   Name   LLP09    <br>   Type   סגור בטחונית    <br>   SHAPE_Leng   .030819    <br>   Nickname   נס ציונה    <br>   Max_Alt   11000    <br>   Min_Alt   GND",
+            "description": "LLP09    \n       \n   OBJECTID_1   9    \n   Name   LLP09    \n   Type   סגור בטחונית    \n   SHAPE_Leng   .030819    \n   Nickname   נס ציונה    \n   Max_Alt   11000    \n   Min_Alt   GND",
             "tessellate": " ",
             "wkt": [
                 [
@@ -1094,7 +1094,7 @@
         },
         {
             "name": " ",
-            "description": "LLP10    <br>       <br>   FID   6    <br>   Id   0    <br>   Name   LLP10    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   900    <br>   Lable   LLP10 GND-900    <br>   Reference   סגור בטחונית    <br>   Nick   מ. איילון-יח האוירית",
+            "description": "LLP10    \n       \n   FID   6    \n   Id   0    \n   Name   LLP10    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   900    \n   Lable   LLP10 GND-900    \n   Reference   סגור בטחונית    \n   Nick   מ. איילון-יח האוירית",
             "tessellate": " ",
             "wkt": [
                 [
@@ -1141,7 +1141,7 @@
         },
         {
             "name": " ",
-            "description": "LLP11    <br>       <br>   FID   9    <br>   Id   0    <br>   Name   LLP11    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   8000    <br>   Lable   LLP11 GND-8000    <br>   Reference   סגור בטחונית    <br>   Nick   הר הבית",
+            "description": "LLP11    \n       \n   FID   9    \n   Id   0    \n   Name   LLP11    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   8000    \n   Lable   LLP11 GND-8000    \n   Reference   סגור בטחונית    \n   Nick   הר הבית",
             "tessellate": " ",
             "wkt": [
                 [
@@ -2344,7 +2344,7 @@
         },
         {
             "name": " ",
-            "description": "LLP12    <br>       <br>   FID   7    <br>   Id   0    <br>   Name   LLP12    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   3000    <br>   Lable   LLP12 GND-3000    <br>   Reference   סגור בטחונית    <br>   Nick   שטח אש 209",
+            "description": "LLP12    \n       \n   FID   7    \n   Id   0    \n   Name   LLP12    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   3000    \n   Lable   LLP12 GND-3000    \n   Reference   סגור בטחונית    \n   Nick   שטח אש 209",
             "tessellate": " ",
             "wkt": [
                 [
@@ -2399,7 +2399,7 @@
         },
         {
             "name": " ",
-            "description": "LLP13    <br>       <br>   FID   15    <br>   Id   0    <br>   Name   LLP13    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   4000    <br>   Lable   LLP13 GND-4000    <br>   Reference   סגור בטחונית    <br>   Nick   ירושלים",
+            "description": "LLP13    \n       \n   FID   15    \n   Id   0    \n   Name   LLP13    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   4000    \n   Lable   LLP13 GND-4000    \n   Reference   סגור בטחונית    \n   Nick   ירושלים",
             "tessellate": " ",
             "wkt": [
                 [
@@ -4598,7 +4598,7 @@
         },
         {
             "name": " ",
-            "description": "LLP14    <br>       <br>   FID   21    <br>   Id   0    <br>   Name   LLP14    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   7000    <br>   Lable   LLP14 GND-7000    <br>   Reference   סגור בטחונית    <br>   Nick   רמת בקע",
+            "description": "LLP14    \n       \n   FID   21    \n   Id   0    \n   Name   LLP14    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   7000    \n   Lable   LLP14 GND-7000    \n   Reference   סגור בטחונית    \n   Nick   רמת בקע",
             "tessellate": " ",
             "wkt": [
                 [
@@ -4641,7 +4641,7 @@
         },
         {
             "name": " ",
-            "description": "LLP15    <br>       <br>   FID   8    <br>   Id   0    <br>   Name   LLP15    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   0    <br>   Lable   LLP15 GND-UNL    <br>   Reference   סגור בטחונית    <br>   Nick   דימונה",
+            "description": "LLP15    \n       \n   FID   8    \n   Id   0    \n   Name   LLP15    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   0    \n   Lable   LLP15 GND-UNL    \n   Reference   סגור בטחונית    \n   Nick   דימונה",
             "tessellate": " ",
             "wkt": [
                 [
@@ -4952,7 +4952,7 @@
         },
         {
             "name": " ",
-            "description": "LLP171    <br>       <br>   FID   13    <br>   Id   0    <br>   Name   LLP171    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   8000    <br>   Lable   LLP171 GND-8000    <br>   Reference   סגור בטחונית    <br>   Nick   איוש צפון",
+            "description": "LLP171    \n       \n   FID   13    \n   Id   0    \n   Name   LLP171    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   8000    \n   Lable   LLP171 GND-8000    \n   Reference   סגור בטחונית    \n   Nick   איוש צפון",
             "tessellate": " ",
             "wkt": [
                 [
@@ -5039,7 +5039,7 @@
         },
         {
             "name": " ",
-            "description": "LLP16    <br>       <br>   FID   18    <br>   Id   0    <br>   Name   LLP16    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2700    <br>   Lable   LLP16 GND-2700    <br>   Reference   שמורות טבע    <br>   Nick   עין עבדת",
+            "description": "LLP16    \n       \n   FID   18    \n   Id   0    \n   Name   LLP16    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2700    \n   Lable   LLP16 GND-2700    \n   Reference   שמורות טבע    \n   Nick   עין עבדת",
             "tessellate": " ",
             "wkt": [
                 [
@@ -5086,7 +5086,7 @@
         },
         {
             "name": " ",
-            "description": "LLP172    <br>       <br>   FID   16    <br>   Id   0    <br>   Name   LLP172    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   6000    <br>   Lable   LLP172 GND-6000    <br>   Reference   סגור בטחונית    <br>   Nick   איוש מרכז",
+            "description": "LLP172    \n       \n   FID   16    \n   Id   0    \n   Name   LLP172    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   6000    \n   Lable   LLP172 GND-6000    \n   Reference   סגור בטחונית    \n   Nick   איוש מרכז",
             "tessellate": " ",
             "wkt": [
                 [
@@ -5973,7 +5973,7 @@
         },
         {
             "name": " ",
-            "description": "LLP173    <br>       <br>   FID   17    <br>   Id   0    <br>   Name   LLP173    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   8000    <br>   Lable   LLP173 GND-8000    <br>   Reference   סגור בטחונית    <br>   Nick   איוש דרום",
+            "description": "LLP173    \n       \n   FID   17    \n   Id   0    \n   Name   LLP173    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   8000    \n   Lable   LLP173 GND-8000    \n   Reference   סגור בטחונית    \n   Nick   איוש דרום",
             "tessellate": " ",
             "wkt": [
                 [
@@ -6576,7 +6576,7 @@
         },
         {
             "name": " ",
-            "description": "LLP18    <br>       <br>   FID   12    <br>   Id   0    <br>   Name   LLP18    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   6000    <br>   Lable   LLP18 GND-6000    <br>   Reference   סגור בטחונית    <br>   Nick   יריחו",
+            "description": "LLP18    \n       \n   FID   12    \n   Id   0    \n   Name   LLP18    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   6000    \n   Lable   LLP18 GND-6000    \n   Reference   סגור בטחונית    \n   Nick   יריחו",
             "tessellate": " ",
             "wkt": [
                 [
@@ -6619,7 +6619,7 @@
         },
         {
             "name": " ",
-            "description": "LLP19    <br>       <br>   FID   10    <br>   Id   0    <br>   Name   LLP19    <br>   Code       <br>   Type   LLP    <br>   Class   ALL    <br>   Min_Alt   0    <br>   Max_Alt   0    <br>   Lable   LLP19 GND-UNL    <br>   Reference   סגור בטחונית    <br>   Nick   רצועת עזה",
+            "description": "LLP19    \n       \n   FID   10    \n   Id   0    \n   Name   LLP19    \n   Code       \n   Type   LLP    \n   Class   ALL    \n   Min_Alt   0    \n   Max_Alt   0    \n   Lable   LLP19 GND-UNL    \n   Reference   סגור בטחונית    \n   Nick   רצועת עזה",
             "tessellate": " ",
             "wkt": [
                 [
@@ -6758,7 +6758,7 @@
         },
         {
             "name": " ",
-            "description": "LLR20    <br>       <br>   OBJECTID_1   18    <br>   Name   LLR20    <br>   Type   מוגבל לטיסה    <br>   SHAPE_Leng   .181806    <br>   Nickname   הבונים - גליל הצנחה    <br>   Max_Alt   12000    <br>   Min_Alt   MSL/GND",
+            "description": "LLR20    \n       \n   OBJECTID_1   18    \n   Name   LLR20    \n   Type   מוגבל לטיסה    \n   SHAPE_Leng   .181806    \n   Nickname   הבונים - גליל הצנחה    \n   Max_Alt   12000    \n   Min_Alt   MSL/GND",
             "tessellate": " ",
             "wkt": [
                 [
@@ -7089,7 +7089,7 @@
         },
         {
             "name": " ",
-            "description": "LLP21    <br>       <br>   FID   11    <br>   Id   0    <br>   Name   LLP21    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2000    <br>   Lable   LLP21 GND-2000    <br>   Reference   סגור בטחונית    <br>   Nick   לשם",
+            "description": "LLP21    \n       \n   FID   11    \n   Id   0    \n   Name   LLP21    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2000    \n   Lable   LLP21 GND-2000    \n   Reference   סגור בטחונית    \n   Nick   לשם",
             "tessellate": " ",
             "wkt": [
                 [
@@ -7124,7 +7124,7 @@
         },
         {
             "name": " ",
-            "description": "LLP22    <br>       <br>   FID   22    <br>   Id   0    <br>   Name   LLP22    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   2000    <br>   Lable   LLP22 GND-2000    <br>   Reference   סגור בטחונית    <br>   Nick   מפעל יצחק",
+            "description": "LLP22    \n       \n   FID   22    \n   Id   0    \n   Name   LLP22    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   2000    \n   Lable   LLP22 GND-2000    \n   Reference   סגור בטחונית    \n   Nick   מפעל יצחק",
             "tessellate": " ",
             "wkt": [
                 [
@@ -7767,7 +7767,7 @@
         },
         {
             "name": " ",
-            "description": "LLP23    <br>       <br>   FID   14    <br>   Id   0    <br>   Name   LLP23    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   3000    <br>   Lable   LLP23 GND-3000    <br>   Reference   סגור בטחונית    <br>   Nick   הר קרן",
+            "description": "LLP23    \n       \n   FID   14    \n   Id   0    \n   Name   LLP23    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   3000    \n   Lable   LLP23 GND-3000    \n   Reference   סגור בטחונית    \n   Nick   הר קרן",
             "tessellate": " ",
             "wkt": [
                 [
@@ -8442,7 +8442,7 @@
         },
         {
             "name": " ",
-            "description": "LLP31    <br>       <br>   OBJECTID_1   20    <br>   Name   LLP31    <br>   Type   תעבורת אז\"ם מנחת ראשון לציון    <br>   SHAPE_Leng   .029146    <br>   Nickname   באר יעקב    <br>   Max_Alt   3000    <br>   Min_Alt   GND",
+            "description": "LLP31    \n       \n   OBJECTID_1   20    \n   Name   LLP31    \n   Type   תעבורת אז\"ם מנחת ראשון לציון    \n   SHAPE_Leng   .029146    \n   Nickname   באר יעקב    \n   Max_Alt   3000    \n   Min_Alt   GND",
             "tessellate": " ",
             "wkt": [
                 [
@@ -8469,7 +8469,7 @@
         },
         {
             "name": " ",
-            "description": "LLP32    <br>       <br>   OBJECTID_1   21    <br>   Name   LLP32    <br>   Type   תעבורת אז\"ם מנחת ראשון לציון    <br>   SHAPE_Leng   .032150    <br>   Nickname   רמלה    <br>   Max_Alt   3000    <br>   Min_Alt   GND",
+            "description": "LLP32    \n       \n   OBJECTID_1   21    \n   Name   LLP32    \n   Type   תעבורת אז\"ם מנחת ראשון לציון    \n   SHAPE_Leng   .032150    \n   Nickname   רמלה    \n   Max_Alt   3000    \n   Min_Alt   GND",
             "tessellate": " ",
             "wkt": [
                 [
@@ -8496,7 +8496,7 @@
         },
         {
             "name": " ",
-            "description": "LLP02    <br>       <br>   FID   20    <br>   Id   0    <br>   Name   LLP02    <br>   Code       <br>   Type   LLP    <br>   Class   ISL    <br>   Min_Alt   0    <br>   Max_Alt   3500    <br>   Lable   LLP02 GND-3500    <br>   Reference   שמורות טבע    <br>   Nick   גמלא",
+            "description": "LLP02    \n       \n   FID   20    \n   Id   0    \n   Name   LLP02    \n   Code       \n   Type   LLP    \n   Class   ISL    \n   Min_Alt   0    \n   Max_Alt   3500    \n   Lable   LLP02 GND-3500    \n   Reference   שמורות טבע    \n   Nick   גמלא",
             "tessellate": " ",
             "wkt": [
                 [
@@ -8527,7 +8527,7 @@
         },
         {
             "name": " ",
-            "description": "LLL    <br>       <br>   FID   23    <br>   Id   0    <br>   Name   LLL    <br>   Code       <br>   Type   LLP    <br>   Class       <br>   Min_Alt   0    <br>   Max_Alt   0    <br>   Lable       <br>   Reference   שמורת טבע    <br>   Nick   עין גדי",
+            "description": "LLL    \n       \n   FID   23    \n   Id   0    \n   Name   LLL    \n   Code       \n   Type   LLP    \n   Class       \n   Min_Alt   0    \n   Max_Alt   0    \n   Lable       \n   Reference   שמורת טבע    \n   Nick   עין גדי",
             "tessellate": " ",
             "wkt": [
                 [
@@ -13638,7 +13638,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   0    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6282.210064    <br>   Area   3139584.19624",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   0    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6282.210064    \n   Area   3139584.19624",
             "tessellate": " ",
             "wkt": [
                 [
@@ -14049,7 +14049,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   1    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6282.208486    <br>   Area   3139582.61346",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   1    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6282.208486    \n   Area   3139582.61346",
             "tessellate": " ",
             "wkt": [
                 [
@@ -14460,7 +14460,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   2    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   3141.107204    <br>   Area   784897.134732",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   2    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   3141.107204    \n   Area   784897.134732",
             "tessellate": " ",
             "wkt": [
                 [
@@ -14871,7 +14871,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   3    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   3141.100585    <br>   Area   784893.826683",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   3    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   3141.100585    \n   Area   784893.826683",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15282,7 +15282,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   4    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   3141.109985    <br>   Area   784898.524274",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   4    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   3141.109985    \n   Area   784898.524274",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15693,7 +15693,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   5    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4773.842098    <br>   Area   1279719.71077",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   5    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4773.842098    \n   Area   1279719.71077",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15744,7 +15744,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   6    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   14836.929241    <br>   Area   6062203.22964",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   6    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   14836.929241    \n   Area   6062203.22964",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15839,7 +15839,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   7    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   3721.188088    <br>   Area   834739.572705",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   7    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   3721.188088    \n   Area   834739.572705",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15882,7 +15882,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   8    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   8196.437304    <br>   Area   4730912.26004",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   8    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   8196.437304    \n   Area   4730912.26004",
             "tessellate": " ",
             "wkt": [
                 [
@@ -15925,7 +15925,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   9    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   13089.214723    <br>   Area   11003613.9315",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   9    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   13089.214723    \n   Area   11003613.9315",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16000,7 +16000,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   10    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   28051.334455    <br>   Area   40985043.2404",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   10    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   28051.334455    \n   Area   40985043.2404",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16135,7 +16135,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   11    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   24132.692609    <br>   Area   41720751.7147",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   11    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   24132.692609    \n   Area   41720751.7147",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16198,7 +16198,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   12    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   8860.00877    <br>   Area   4343960.93998",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   12    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   8860.00877    \n   Area   4343960.93998",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16329,7 +16329,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   13    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   11306.389243    <br>   Area   10166724.5075",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   13    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   11306.389243    \n   Area   10166724.5075",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16656,7 +16656,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   14    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   5177.307654    <br>   Area   1643603.08765",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   14    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   5177.307654    \n   Area   1643603.08765",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16731,7 +16731,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   15    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6086.733082    <br>   Area   975197.585512",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   15    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6086.733082    \n   Area   975197.585512",
             "tessellate": " ",
             "wkt": [
                 [
@@ -16862,7 +16862,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   16    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   7005.54317    <br>   Area   1592465.33279",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   16    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   7005.54317    \n   Area   1592465.33279",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17017,7 +17017,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   17    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   3407.672671    <br>   Area   757421.798118",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   17    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   3407.672671    \n   Area   757421.798118",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17076,7 +17076,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   18    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4456.225471    <br>   Area   1110102.07556",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   18    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4456.225471    \n   Area   1110102.07556",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17191,7 +17191,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   19    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   18352.557345    <br>   Area   8854455.04172",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   19    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   18352.557345    \n   Area   8854455.04172",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17494,7 +17494,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   20    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   10964.550837    <br>   Area   2647998.85966",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   20    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   10964.550837    \n   Area   2647998.85966",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17569,7 +17569,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   21    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   5746.431675    <br>   Area   1197499.68366",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   21    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   5746.431675    \n   Area   1197499.68366",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17628,7 +17628,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   23    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   17808.669128    <br>   Area   14207894.5278",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   23    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   17808.669128    \n   Area   14207894.5278",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17687,7 +17687,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   22    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   12033.624077    <br>   Area   4906565.44916",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   22    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   12033.624077    \n   Area   4906565.44916",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17738,7 +17738,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   25    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   20745.128145    <br>   Area   25441220.1498",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   25    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   20745.128145    \n   Area   25441220.1498",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17813,7 +17813,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   24    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   35656.656782    <br>   Area   56430573.6417",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   24    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   35656.656782    \n   Area   56430573.6417",
             "tessellate": " ",
             "wkt": [
                 [
@@ -17916,7 +17916,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   26    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   7547.336804    <br>   Area   2305559.04457",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   7547.336804    \n   Area   2305559.04457",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18027,7 +18027,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   27    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   7822.731239    <br>   Area   3448265.3062",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   7822.731239    \n   Area   3448265.3062",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18098,7 +18098,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   28    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   7500.541153    <br>   Area   1974063.90251",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   7500.541153    \n   Area   1974063.90251",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18173,7 +18173,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   29    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   5994.018911    <br>   Area   1165605.35352",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   5994.018911    \n   Area   1165605.35352",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18236,7 +18236,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   30    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4476.348384    <br>   Area   945571.878964",
+            "description": "טיסה מעל 1500 רגל - מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4476.348384    \n   Area   945571.878964",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18271,7 +18271,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   31    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   29219.22949    <br>   Area   5046601.18797",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   29219.22949    \n   Area   5046601.18797",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18566,7 +18566,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   32    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   12228.613326    <br>   Area   7617183.73978",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   12228.613326    \n   Area   7617183.73978",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18665,7 +18665,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   33    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   21623.772522    <br>   Area   28133544.3103",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   21623.772522    \n   Area   28133544.3103",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18716,7 +18716,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   34    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   24301.777856    <br>   Area   19924802.5344",
+            "description": " מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   24301.777856    \n   Area   19924802.5344",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18787,7 +18787,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   35    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   2309.808831    <br>   Area   232131.54005",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   2309.808831    \n   Area   232131.54005",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18906,7 +18906,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   37    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   5342.349543    <br>   Area   1389802.71719",
+            "description": " מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   5342.349543    \n   Area   1389802.71719",
             "tessellate": " ",
             "wkt": [
                 [
@@ -18985,7 +18985,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   36    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   2519.708498    <br>   Area   395316.198859",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   2519.708498    \n   Area   395316.198859",
             "tessellate": " ",
             "wkt": [
                 [
@@ -19012,7 +19012,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   38    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   5448.878587    <br>   Area   472606.853106",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   5448.878587    \n   Area   472606.853106",
             "tessellate": " ",
             "wkt": [
                 [
@@ -19339,7 +19339,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   39    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   5484.724616    <br>   Area   961197.475834",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   5484.724616    \n   Area   961197.475834",
             "tessellate": " ",
             "wkt": [
                 [
@@ -19755,7 +19755,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   40    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   20644.856932    <br>   Area   7381544.0308",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   20644.856932    \n   Area   7381544.0308",
             "tessellate": " ",
             "wkt": [
                 [
@@ -19954,7 +19954,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   41    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6686.689742    <br>   Area   1378090.94904",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6686.689742    \n   Area   1378090.94904",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20081,7 +20081,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   42    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6931.940685    <br>   Area   1787259.53545",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6931.940685    \n   Area   1787259.53545",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20120,7 +20120,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   45    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   13694.847115    <br>   Area   4230259.32408",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   13694.847115    \n   Area   4230259.32408",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20259,7 +20259,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   47    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6427.605349    <br>   Area   1064818.87813",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6427.605349    \n   Area   1064818.87813",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20390,7 +20390,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   48    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   5547.901951    <br>   Area   1009066.0733",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   5547.901951    \n   Area   1009066.0733",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20461,7 +20461,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   49    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4174.985023    <br>   Area   529092.209546",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4174.985023    \n   Area   529092.209546",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20520,7 +20520,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   50    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4356.303106    <br>   Area   745986.819974",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4356.303106    \n   Area   745986.819974",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20587,7 +20587,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   51    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   8576.837378    <br>   Area   2966819.8348",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   8576.837378    \n   Area   2966819.8348",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20686,7 +20686,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   52    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   7513.439402    <br>   Area   1488509.36292",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   7513.439402    \n   Area   1488509.36292",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20757,7 +20757,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   53    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   10669.568865    <br>   Area   2627755.53377",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   10669.568865    \n   Area   2627755.53377",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20848,7 +20848,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   55    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   19957.089885    <br>   Area   20043442.808",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   19957.089885    \n   Area   20043442.808",
             "tessellate": " ",
             "wkt": [
                 [
@@ -20967,7 +20967,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   54    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   6566.769757    <br>   Area   1107551.88618",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   6566.769757    \n   Area   1107551.88618",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21054,7 +21054,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   56    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   27081.897701    <br>   Area   7978301.68194",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   27081.897701    \n   Area   7978301.68194",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21253,7 +21253,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   57    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   21525.97197    <br>   Area   21218972.2297",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   21525.97197    \n   Area   21218972.2297",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21304,7 +21304,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   58    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   8712.749582    <br>   Area   3097195.81645",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   8712.749582    \n   Area   3097195.81645",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21391,7 +21391,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   59    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   12210.145579    <br>   Area   3499564.24252",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   12210.145579    \n   Area   3499564.24252",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21506,7 +21506,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   60    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   5338.72887    <br>   Area   1153405.17985",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   5338.72887    \n   Area   1153405.17985",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21577,7 +21577,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   61    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   10434.717306    <br>   Area   3485651.12603",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   10434.717306    \n   Area   3485651.12603",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21684,7 +21684,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   62    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   18311.714288    <br>   Area   7441492.36185",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   18311.714288    \n   Area   7441492.36185",
             "tessellate": " ",
             "wkt": [
                 [
@@ -21927,7 +21927,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   63    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   47395.367826    <br>   Area   67465934.4486",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   47395.367826    \n   Area   67465934.4486",
             "tessellate": " ",
             "wkt": [
                 [
@@ -23582,7 +23582,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   64    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   12943.002759    <br>   Area   9776204.67555",
+            "description": "מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   12943.002759    \n   Area   9776204.67555",
             "tessellate": " ",
             "wkt": [
                 [
@@ -25277,7 +25277,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס    <br>       <br>   FID   65    <br>   gova   9999    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס    <br>   Perimeter   27413.983851    <br>   Area   16175164.6281",
+            "description": "מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס    \n   Perimeter   27413.983851    \n   Area   16175164.6281",
             "tessellate": " ",
             "wkt": [
                 [
@@ -26376,7 +26376,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   66    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   32651.868684    <br>   Area   14299185.8347",
+            "description": " מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   32651.868684    \n   Area   14299185.8347",
             "tessellate": " ",
             "wkt": [
                 [
@@ -29615,7 +29615,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   43    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   10590.364458    <br>   Area   2925217.71445",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   10590.364458    \n   Area   2925217.71445",
             "tessellate": " ",
             "wkt": [
                 [
@@ -29702,7 +29702,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   44    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   12090.607125    <br>   Area   6792476.04601",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   12090.607125    \n   Area   6792476.04601",
             "tessellate": " ",
             "wkt": [
                 [
@@ -29753,7 +29753,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   46    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   8640.109269    <br>   Area   2004165.70429",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   8640.109269    \n   Area   2004165.70429",
             "tessellate": " ",
             "wkt": [
                 [
@@ -29884,7 +29884,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   67    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   56991.776205    <br>   Area   39589908.3714",
+            "description": "מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   56991.776205    \n   Area   39589908.3714",
             "tessellate": " ",
             "wkt": [
                 [
@@ -30707,7 +30707,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   69    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   348.933525    <br>   Area   7939.458261",
+            "description": " מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   348.933525    \n   Area   7939.458261",
             "tessellate": " ",
             "wkt": [
                 [
@@ -30806,7 +30806,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   70    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   1757.774963    <br>   Area   216122.3324",
+            "description": "  מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   1757.774963    \n   Area   216122.3324",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31109,7 +31109,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   71    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   1148.370166    <br>   Area   94925.9682",
+            "description": "מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   1148.370166    \n   Area   94925.9682",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31304,7 +31304,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   72    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   24719.266263    <br>   Area   18379738.3856",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   24719.266263    \n   Area   18379738.3856",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31495,7 +31495,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   75    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   11706.826376    <br>   Area   3345845.71075",
+            "description": " מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   11706.826376    \n   Area   3345845.71075",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31710,7 +31710,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   76    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   6190.57649    <br>   Area   2307246.08252",
+            "description": "  מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   6190.57649    \n   Area   2307246.08252",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31737,7 +31737,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    <br>       <br>   FID   77    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    <br>   Perimeter   9463.93391    <br>   Area   2368388.40386",
+            "description": "מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    \n   Perimeter   9463.93391    \n   Area   2368388.40386",
             "tessellate": " ",
             "wkt": [
                 [
@@ -31824,7 +31824,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    <br>       <br>   FID   78    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    <br>   Perimeter   33072.128056    <br>   Area   33920350.1007",
+            "description": "  מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס - אפריל עד אוקטובר    \n   Perimeter   33072.128056    \n   Area   33920350.1007",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32095,7 +32095,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   79    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   6884.876479    <br>   Area   1824612.11054",
+            "description": " מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   6884.876479    \n   Area   1824612.11054",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32134,7 +32134,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   80    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   5612.34529    <br>   Area   1462395.92071",
+            "description": "  מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   5612.34529    \n   Area   1462395.92071",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32161,7 +32161,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   81    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   11955.408132    <br>   Area   6829159.65816",
+            "description": " gova   500    \n   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   11955.408132    \n   Area   6829159.65816",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32252,7 +32252,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   82    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   7937.486272    <br>   Area   3999865.09542",
+            "description": " מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   7937.486272    \n   Area   3999865.09542",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32283,7 +32283,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   83    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   36076.929252    <br>   Area   30755500.2967",
+            "description": "טיסה מעל 500 רגל - כל כלי הטיס\n   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   36076.929252    \n   Area   30755500.2967",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32534,7 +32534,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   84    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   12802.935715    <br>   Area   9229785.14689",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס  \n   \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   12802.935715    \n   Area   9229785.14689",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32633,7 +32633,7 @@
         },
         {
             "name": " ",
-            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>       <br>   FID   68    <br>   gova   9998    <br>   מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    <br>   Perimeter   447.070879    <br>   Area   14852.282742",
+            "description": "אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n מגבלת_טיסה   אסורה הטיסה לכל כלי הטיס - מתוקף חוק קיים    \n   Perimeter   447.070879    \n   Area   14852.282742",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32756,7 +32756,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    <br>       <br>   FID   73    <br>   gova   1500    <br>   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    <br>   Perimeter   4671.629601    <br>   Area   1278277.44382",
+            "description": "טיסה מעל 1500 רגל - כל כלי הטיס    \n       \n   FID   73    \n   gova   1500    \n   מגבלת_טיסה   טיסה מעל 1500 רגל - כל כלי הטיס    \n   Perimeter   4671.629601    \n   Area   1278277.44382",
             "tessellate": " ",
             "wkt": [
                 [
@@ -32787,7 +32787,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   74    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   49265.780308    <br>   Area   103434108.564",
+            "description": "טיסה מעל 500 רגל - כל כלי הטיס    \n מגבלת_טיסה: טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   49265.780308    \n   Area   103434108.564",
             "tessellate": " ",
             "wkt": [
                 [
@@ -33178,7 +33178,7 @@
         },
         {
             "name": " ",
-            "description": "טיסה מעל 500 רגל - כל כלי הטיס    <br>       <br>   FID   85    <br>   gova   500    <br>   מגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    <br>   Perimeter   2698.261389    <br>   Area   500447.752813",
+            "description": "טיסה מעל 500 רגל - כל כלי הטיס\nמגבלת_טיסה   טיסה מעל 500 רגל - כל כלי הטיס    \n   Perimeter   2698.261389    \n   Area   500447.752813",
             "tessellate": " ",
             "wkt": [
                 [

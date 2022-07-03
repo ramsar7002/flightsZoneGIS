@@ -6,14 +6,14 @@ var databaseConnection = require("../handlers/db");
 var moment = require("moment");
 
 var store = new ExpressBrute.MemoryStore();
-const failCallback = (req, res, next, nextValidRequestDate) => {
-  res
-    .status(429)
-    .send(
-      "You've made too many failed attempts in a short period of time, please try again " +
-        moment(nextValidRequestDate).fromNow()
-    );
-};
+// const failCallback = (req, res, next, nextValidRequestDate) => {
+//   res
+//     .status(429)
+//     .send(
+//       "You've made too many failed attempts in a short period of time, please try again " +
+//         moment(nextValidRequestDate).fromNow()
+//     );
+// };
 const handleStoreError = (error) => {
   log.error(error);
   throw {
@@ -29,7 +29,7 @@ const userBruteForce = new ExpressBrute(store, {
   minWait: 5 * 60 * 1000,
   maxWait: 5 * 60 * 1000,
   lifetime: 5 * 60 * 1000,
-  failCallback: failCallback,
+  // failCallback: failCallback,
   handleStoreError: handleStoreError,
 });
 

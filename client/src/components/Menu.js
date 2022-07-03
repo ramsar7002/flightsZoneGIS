@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const menuItemClick = (e) => {
   if (e.target.classList.contains("item")) {

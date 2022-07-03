@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "html-react-parser": "^1.4.14",
+    "react-leaflet-editable-popup": "^2.0.3"
+  }
+}

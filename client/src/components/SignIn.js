@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import App from "./App";
+// import App from "./App";
 import Main from "./Main";
 
 const SignIn = () => {
@@ -98,7 +98,7 @@ const SignIn = () => {
     e.preventDefault();
     const url = `https://localhost:9000/users/${userID}/changeForgottenPassword`;
 
-    const res = await axios
+    await axios
       .post(url, {
         pincode: pinCode,
         password: newPassword,
@@ -242,7 +242,7 @@ const SignIn = () => {
     setUserID(found.userID);
     url = `https://localhost:9000/users/${found.userID}/forgetPassword`;
 
-    const res1 = await axios.post(url).catch((err) => {
+    await axios.post(url).catch((err) => {
       console.log(err);
       setChangePassErr(err?.response.data);
       return true;

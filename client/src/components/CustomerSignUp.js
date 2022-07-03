@@ -1,5 +1,5 @@
-import react, { useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
+// import axios from "axios";
 import Main from "./Main";
 
 function CustomerSignUp() {
@@ -13,16 +13,16 @@ function CustomerSignUp() {
   const [addUser, setAddUser] = useState(false);
 
   const addNewUserBtnClicked = async (e) => {
-    const url = "https://localhost:9000/customers/";
+    // const url = "https://localhost:9000/customers/";
 
-    const res = await axios.post(url, {
-      lastName: lastName,
-      firstName: firstName,
-      emailAddress: mail,
-      phoneNumber: phone,
-      userName: userName,
-      password: password,
-    });
+    // const res = await axios.post(url, {
+    //   lastName: lastName,
+    //   firstName: firstName,
+    //   emailAddress: mail,
+    //   phoneNumber: phone,
+    //   userName: userName,
+    //   password: password,
+    // });
     setFirstName("");
     setLastName("");
     setMail("");
