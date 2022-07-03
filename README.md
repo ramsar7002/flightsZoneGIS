@@ -1,7 +1,9 @@
 # 💻📱 flightsZone 
 ## flightsZone website - GIS course project
-This project is a customer managemet web application and REST API for a communication company.
-By design, this application is vulnerable for SQLi attacks, XSS attacks and more. 😈😈
+This project is a web application to view no-fly-zone area on israel
+this project base on publications of civil-aviation-authority of israel
+
+feel free to use it and fly safe :)
 
 Installaiton and configuration instructions are detailed below:
 
