@@ -1,7 +1,8 @@
 # 💻📱 flightsZone 
 ## flightsZone website - GIS course project
 This project is a web application to view no-fly-zone area on israel
-this project base on publications of civil-aviation-authority of israel
+
+This project base on publications of civil-aviation-authority of israel
 
 feel free to use it and fly safe :)
 
