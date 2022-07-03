@@ -5,8 +5,7 @@ import Popup from "react-leaflet-editable-popup";
 import "../style.css";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import { Icon } from "leaflet";
-import { useMapEvents } from "react-leaflet/hooks";
-
+import LocationMarker from "./LocationMarker";
 const fillBlueOptions = { fillColor: "blue" };
 // const blackOptions = { color: "black" };
 // const limeOptions = { color: "lime" };
@@ -77,36 +76,16 @@ const MapComp = () => {
     );
   };
 
-  function LocationMarker() {
-    const [position, setPosition] = useState(null);
-    const map = useMapEvents({
-      click() {
-        map.locate();
-      },
-      locationfound(e) {
-        setPosition(e.latlng);
-        map.flyTo(e.latlng, map.getZoom());
-      },
-    });
-
-    return position === null ? null : (
-      <Marker position={position}>
-        <Popup>You are here</Popup>
-      </Marker>
-    );
-  }
-
   return (
     <MapContainer center={position} zoom={10} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-
+      <LocationMarker />
       {/* {createMarkers()} */}
 
       {loadJson()}
-      {/* <LocationMarker /> */}
     </MapContainer>
   );
 };
