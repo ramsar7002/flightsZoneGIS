@@ -4,12 +4,6 @@ const app = express();
 const cors = require("cors");
 
 const data = require("../data/cities.json"); // path of your json file\
-app.use(function (req, res, next) {
-  res.render("index", { title: "Blog", message: "fd" });
-  console.log(data);
-
-  next();
-});
 
 /* GET home page. */
 router.get("/:cityName", function (req, res, next) {
@@ -17,7 +11,6 @@ router.get("/:cityName", function (req, res, next) {
   let result = data.streets.filter((d) =>
     d.city_name.includes(req.params.cityName)
   );
-  console.log(result);
   const cities = [];
   result.forEach((res) => {
     if (!cities.includes(res.city_name)) cities.push(res.city_name);

@@ -4,6 +4,7 @@ import axios from "axios";
 const Sidebar = () => {
   const [term, setTerm] = useState(null);
   const [results, setResults] = useState([]);
+  const [cityName, setCityName] = useState(null);
 
   useEffect(() => {
     //Runs on the first render
@@ -20,16 +21,29 @@ const Sidebar = () => {
     }
   };
 
+  const cityClicked = async (e) => {
+    // https://www.openstreetmap.org/geocoder/search_osm_nominatim?query=תל אביב
+    setCityName(e.target.textContent);
+    const data = await axios.get(
+      `https://www.openstreetmap.org/geocoder/search_osm_nominatim?query=${cityName}`
+    );
+    let positionLat = data.data.search("data-lat=") + "data-lat=".length + 1;
+    let positionlon = data.data.search("data-lon=") + "data-lat=".length + 1;
+    console.log(data.data.slice(positionLat, positionLat + 7));
+    console.log(data.data.slice(positionlon, positionlon + 7));
+  };
+
   const listOfCities = () => {
-    console.log(results);
     if (results) {
       return results.map((item) => {
         return (
-          <div class="item">
-            <div class="content">
-              <a class="header text">{item}</a>
+          <div className="item" key={item}>
+            <div className="content">
+              <a className="header text" onClick={(e) => cityClicked(e)}>
+                {item}
+              </a>
             </div>
-            <div class="ui fitted divider"></div>
+            <div className="ui fitted divider"></div>
           </div>
         );
       });
@@ -37,18 +51,18 @@ const Sidebar = () => {
     return null;
   };
   return (
-    <div class="sidebar_m">
+    <div className="sidebar_m">
       <div
-        class="ui action input right"
+        className="ui action input right"
         onChange={(e) => setTerm(e.target.value)}
       >
         <input type="text" placeholder="חפש עיר" />
 
-        <button class="ui button" onClick={() => userSearchCity()}>
+        <button className="ui button" onClick={() => userSearchCity()}>
           חיפוש
         </button>
       </div>
-      <div class="ui middle aligned divided list">{listOfCities()}</div>
+      <div className="ui middle aligned divided list">{listOfCities()}</div>
     </div>
   );
 };

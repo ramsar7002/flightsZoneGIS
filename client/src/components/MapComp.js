@@ -40,7 +40,7 @@ const MapComp = () => {
   const loadJson = () => {
     return locations?.map((item) => (
       <Polygon
-        key={item.wkt[0]}
+        key={item.wkt.toString()}
         pathOptions={fillBlueOptions}
         positions={item.wkt}
       />

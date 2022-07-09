@@ -4,11 +4,11 @@ import MapComp from "./MapComp";
 
 const Main = (params) => {
   return (
-    <div class="ui grid">
-      <div class="four wide column sidebar_m">
+    <div className="ui grid">
+      <div className="four wide column sidebar_m">
         <Sidebar />
       </div>
-      <div class="twelve wide column">
+      <div className="twelve wide column">
         <MapComp />
       </div>
     </div>
