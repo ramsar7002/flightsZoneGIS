@@ -95,18 +95,6 @@ const MapComp = (props) => {
       <LocationMarker position={position} />
       {/* {createMarkers()} */}
 
-      <Marker
-        key={`marker-${position}`}
-        position={position}
-        icon={
-          new Icon({
-            iconUrl: markerIconPng,
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-          })
-        }
-      ></Marker>
-
       {loadJson()}
     </MapContainer>
   );

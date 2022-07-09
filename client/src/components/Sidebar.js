@@ -6,7 +6,23 @@ const Sidebar = (props) => {
   const [results, setResults] = useState([]);
   const [cityName, setCityName] = useState(null);
 
-  useEffect(() => {}, [results, term]);
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      search();
+    }, 500);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [term]);
+
+  const search = async () => {
+    if (!term) return;
+    const res = await axios.get(`https://localhost:9000/cities/${term}`);
+    if (res.data) {
+      setResults(res.data);
+    }
+  };
 
   const userSearchCity = async () => {
     if (!term) return;
@@ -33,13 +49,16 @@ const Sidebar = (props) => {
     ]);
   };
 
-  const onTermChange = (e) => {
+  const onTermChange = async (e) => {
     setTerm(e.target.value);
     if (!e.target.value) setResults([]);
+
+    if (!term) return;
   };
 
   const listOfCities = () => {
-    if (results) {
+    if (!term) return;
+    if (results.length > 0) {
       return results.map((item) => {
         return (
           <div className="item" key={item}>
@@ -52,17 +71,20 @@ const Sidebar = (props) => {
           </div>
         );
       });
-    }
-    return null;
+    } else
+      return (
+        <div className="item">
+          <div className="content">
+            <p className="header text">אין תוצאות</p>
+          </div>
+          <div className="ui fitted divider"></div>
+        </div>
+      );
   };
   return (
     <div className="sidebar_m">
       <div className="ui action input right" onChange={(e) => onTermChange(e)}>
         <input type="text" placeholder="חפש עיר" />
-
-        <button className="ui button" onClick={() => userSearchCity()}>
-          חיפוש
-        </button>
       </div>
       <div className="ui middle aligned divided list">{listOfCities()}</div>
     </div>
