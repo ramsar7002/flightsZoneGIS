@@ -63,15 +63,15 @@ const SignIn = () => {
         <br />
         <div className="field" placeholder="Last Name">
           <div className="ui pointing below label">
-            If the user name exist, A pin code sent to your mail, please enter
-            it and a new password below
+            אם שם המשתמש קיים במערכת, נשלח מייל עם קוד אל המייל המקושר אל
+            החשבון.
           </div>
           <div
             className="ui input focus"
             onChange={(e) => setPinCode(e.target.value)}
             value={pinCode}
           >
-            <input type="text" placeholder="Pin code" />
+            <input type="text" placeholder="קוד" />
           </div>
           <br />
           <br />
@@ -80,7 +80,7 @@ const SignIn = () => {
             onChange={(e) => setNewPassword(e.target.value)}
             value={newPassword}
           >
-            <input type="password" placeholder="New Password" />
+            <input type="password" placeholder="סיסמא חדשה" />
           </div>
           <div>
             <br />
@@ -105,7 +105,7 @@ const SignIn = () => {
       })
       .then(() => {
         setPinCode("");
-        setChangePassErr(`The password changed succeffuly`);
+        setChangePassErr(`הסיסמא השתנתה בהצלחה!`);
         setNewPassword("");
         setTimeout(() => {
           setForgotPasswordClicked(false);
@@ -115,7 +115,7 @@ const SignIn = () => {
       .catch((err) => {
         console.log(err.response?.status);
         if (err.response?.status === 404) {
-          setChangePassErr(`${username} not found`);
+          setChangePassErr(`${username} לא קיים במערכת`);
         } else setChangePassErr(err.response.data);
         return;
       });
@@ -132,31 +132,31 @@ const SignIn = () => {
           <h2 className="ui black image header">
             <i className="sync alternate icon"></i>
 
-            <div className="content">Log-in to your account</div>
+            <div className="content">התחברות למשתמש קיים</div>
           </h2>
           <form className="ui large form">
             <div className="ui stacked segment">
               <div className="field">
-                <div className="ui left icon input">
+                <div className="ui icon input">
                   <i className="user icon"></i>
                   <input
                     type="text"
                     name="username"
                     value={username}
                     onChange={onUserNameChange}
-                    placeholder="User Name"
+                    placeholder="שם משתמש"
                   />
                 </div>
               </div>
               <div className="field">
-                <div className="ui left icon input">
+                <div className="ui  icon input">
                   <i className="lock icon"></i>
                   <input
                     type="password"
                     name="password"
                     value={password}
                     onChange={onPasswordChange}
-                    placeholder="Password"
+                    placeholder="סיסמא"
                   />
                 </div>
               </div>
@@ -175,7 +175,7 @@ const SignIn = () => {
         </div> */}
 
           {loginTry && !isLogIn
-            ? loginMessagge(`${username} unauthorized`)
+            ? loginMessagge(`${username} לא מזוהה במערכת`)
             : ""}
           <br />
 
@@ -186,13 +186,11 @@ const SignIn = () => {
             className="ui small button left"
             onClick={(e) => forgotPasswordClick(e)}
           >
-            <i className="icon user"></i>
-            Forgot your password?
+            <i className="icon user"></i>- שכח סיסמא
           </button>
 
           <Link className="ui small button" to="/usersignup">
-            <i className="user plus icon"></i>
-            Add New User
+            <i className="user plus icon"></i>- רישום משתמש חדש
           </Link>
           {forgotPasswordClicked && findUserName().then((t) => t)
             ? pinCodeInput()
@@ -279,7 +277,6 @@ const SignIn = () => {
             username === "" ||
             password === ""
           ) {
-            console.log("User unauthorized");
             return loginPage();
           }
         });

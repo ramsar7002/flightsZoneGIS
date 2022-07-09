@@ -19,6 +19,14 @@
   box-sizing: inherit;
 }
 
+.ui * {
+  direction: rtl;
+  text-align: right;
+}
+.text {
+  font-size: 16px;
+}
+
 html {
   box-sizing: border-box;
   font-size: 72.5%;
@@ -35,6 +43,15 @@ body {
   background-color: #fff;
 }
 
+.item {
+  margin-top: 4px;
+}
+
+.ui.list .list > .item a.header,
+.ui.list > .item a.header {
+  color: #fff !important;
+}
+
 /* GENERAL */
 a:link,
 a:visited {
@@ -47,7 +64,7 @@ a:visited {
 .sidebar_m {
   height: 100vh;
   background-color: var(--color-dark--1);
-  padding: 3rem 5rem 4rem 5rem;
+  padding: 0rem 5rem 4rem 5rem;
   display: flex;
   flex-direction: column;
 }

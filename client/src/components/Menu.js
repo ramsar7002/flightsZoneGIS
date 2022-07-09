@@ -20,10 +20,10 @@ function Menu() {
         onClick={(e) => menuItemClick(e)}
       >
         <Link className="active item" to="/">
-          Home
+          עמוד ראשי
         </Link>
         <Link className="active item" to="/usersignup">
-          User Sign Up
+          הרשמת משתמש
         </Link>
         {/* <Link className="item" to="/">
           Plans & prices{" "}

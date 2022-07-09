@@ -71,16 +71,16 @@ function UserSignUp() {
     return (
       <div className="ui container segment">
         <form className="ui form">
-          <h4 className="ui dividing header">User Sign Up</h4>
+          <h4 className="ui dividing header">הרשמת משתמש</h4>
 
           <div className="field">
-            <label>Name</label>
+            <label>שם</label>
             <div className="two fields">
               <div className="field">
                 <input
                   type="text"
                   name="firstName"
-                  placeholder="First Name"
+                  placeholder="שם פרטי"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                 />
@@ -89,7 +89,7 @@ function UserSignUp() {
                 <input
                   type="text"
                   name="lastName"
-                  placeholder="Last Name"
+                  placeholder="שם משפחה"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                 />
@@ -98,12 +98,12 @@ function UserSignUp() {
           </div>
 
           <div className="field">
-            <label>Contact</label>
+            <label>פרטי יצירת קשר</label>
             <div className="field">
               <input
                 type="text"
                 name="email"
-                placeholder="Email"
+                placeholder="אימייל"
                 value={mail}
                 onChange={(e) => setMail(e.target.value)}
               />
@@ -111,13 +111,13 @@ function UserSignUp() {
           </div>
 
           <div className="field">
-            <label>Login Details</label>
+            <label>פרטי התחברות</label>
             <div className="two fields">
               <div className="field">
                 <input
                   type="text"
                   name="userName"
-                  placeholder="User Name"
+                  placeholder="שם משתמש"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
                 />
@@ -126,7 +126,7 @@ function UserSignUp() {
                 <input
                   type="password"
                   name="password"
-                  placeholder="Password"
+                  placeholder="סיסמא"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -139,7 +139,7 @@ function UserSignUp() {
             tabIndex="0"
             onClick={(e) => addNewUserBtnClicked(e)}
           >
-            Sign Up
+            הרשמה
           </div>
         </form>
         {signUpErr ? showErr() : ""}
