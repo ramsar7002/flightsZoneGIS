@@ -140,6 +140,7 @@ const SignIn = () => {
                 <div className="ui icon input">
                   <i className="user icon"></i>
                   <input
+                    dir="rtl"
                     type="text"
                     name="username"
                     value={username}
@@ -148,10 +149,11 @@ const SignIn = () => {
                   />
                 </div>
               </div>
-              <div className="field">
+              <div className="field ">
                 <div className="ui  icon input">
                   <i className="lock icon"></i>
                   <input
+                    dir="rtl"
                     type="password"
                     name="password"
                     value={password}
@@ -165,7 +167,7 @@ const SignIn = () => {
                 className="ui fluid large black submit button forgot"
                 onClick={userLogin}
               >
-                Login
+                התחברות
               </button>
             </div>
           </form>
@@ -183,7 +185,7 @@ const SignIn = () => {
             type="button"
             title="click here"
             disabled={username ? false : true}
-            className="ui small button left"
+            className="ui small button "
             onClick={(e) => forgotPasswordClick(e)}
           >
             <i className="icon user"></i>- שכח סיסמא
