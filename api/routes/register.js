@@ -43,16 +43,12 @@ router.post("/", (req, res) => {
       res
         .status(400)
         .send(
-          `the user '${req.body.username}' is already exists` +
+          `המשתמש ${req.body.username}' כבר קיים במערכת` +
             JSON.stringify(results)
         );
     }
   } else {
-    res
-      .status(400)
-      .send(
-        "One or more parameters are not provided. Required parameters:'username','password','emailAddress'"
-      );
+    res.status(400).send("נא מלא את כל הפרטים'");
   }
 });
 

@@ -6,14 +6,14 @@ var databaseConnection = require("../handlers/db");
 var moment = require("moment");
 
 var store = new ExpressBrute.MemoryStore();
-// const failCallback = (req, res, next, nextValidRequestDate) => {
-//   res
-//     .status(429)
-//     .send(
-//       "You've made too many failed attempts in a short period of time, please try again " +
-//         moment(nextValidRequestDate).fromNow()
-//     );
-// };
+const failCallback = (req, res, next, nextValidRequestDate) => {
+  res
+    .status(429)
+    .send(
+      "You've made too many failed attempts in a short period of time, please try again " +
+        moment(nextValidRequestDate).fromNow()
+    );
+};
 const handleStoreError = (error) => {
   log.error(error);
   throw {
@@ -23,7 +23,7 @@ const handleStoreError = (error) => {
 };
 
 const userBruteForce = new ExpressBrute(store, {
-  freeRetries: 2,
+  freeRetries: 200,
   attachResetToRequest: false,
   refreshTimeoutOnRequest: false,
   minWait: 5 * 60 * 1000,
@@ -49,7 +49,7 @@ router.post(
         `SELECT passwordHash,passwordSalt FROM users WHERE userName = '${req.body.username}'`
       );
       if (results.length != 1) {
-        res.status(401).send("Incorrect Username or Password");
+        res.status(401).send("השם משתמש או הסיסמא אינם נכונים");
       } else {
         // password validation:
         var passwordHash = results[0].passwordHash;
@@ -66,7 +66,7 @@ router.post(
           res.status(200).send("loggin Succeeded!");
           //req.session.user=req.body.username;
         } else {
-          res.status(401).send("Incorrect Username or Password");
+          res.status(401).send("השם משתמש או הסיסמא אינם נכונים");
         }
       }
     } else {
