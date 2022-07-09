@@ -7,10 +7,6 @@ import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import { Icon } from "leaflet";
 import LocationMarker from "./LocationMarker";
 const fillBlueOptions = { fillColor: "blue" };
-// const blackOptions = { color: "black" };
-// const limeOptions = { color: "lime" };
-// const purpleOptions = { color: "purple" };
-// const redOptions = { color: "red" };
 
 const MapComp = () => {
   const position = [32.109333, 35.295499];
@@ -57,7 +53,8 @@ const MapComp = () => {
               position={[coor[0], coor[1]]}
               icon={
                 new Icon({
-                  iconUrl: markerIconPng,
+                  iconUrl:
+                    "https://icon-library.com/images/icon-markers/icon-markers-10.jpg",
                   iconSize: [20, 35],
                   iconAnchor: [25, 25],
                   shadowSize: [0, 0],
