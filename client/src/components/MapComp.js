@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Polygon } from "react-leaflet";
 import Popup from "react-leaflet-editable-popup";
@@ -8,14 +8,18 @@ import { Icon } from "leaflet";
 import LocationMarker from "./LocationMarker";
 const fillBlueOptions = { fillColor: "blue" };
 
-const MapComp = () => {
-  const position = [32.109333, 35.295499];
+const MapComp = (props) => {
+  let position = [32.109333, 34.855499];
 
   const [locations, setLocations] = useState(null);
+  const [map, setMap] = useState(null);
 
   useEffect(() => {
-    loadData();
-  }, []);
+    if (!locations) loadData();
+
+    position = props.location || [32.109333, 34.855499];
+    changePos();
+  }, [props.location]);
 
   const loadData = async () => {
     await fetch("https://localhost:9000")
@@ -73,14 +77,35 @@ const MapComp = () => {
     );
   };
 
+  const changePos = () => {
+    if (map) map.flyTo(position);
+  };
+
   return (
-    <MapContainer center={position} zoom={10} scrollWheelZoom={true}>
+    <MapContainer
+      center={position}
+      zoom={10}
+      scrollWheelZoom={true}
+      ref={setMap}
+    >
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <LocationMarker />
+      <LocationMarker position={position} />
       {/* {createMarkers()} */}
+
+      <Marker
+        key={`marker-${position}`}
+        position={position}
+        icon={
+          new Icon({
+            iconUrl: markerIconPng,
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+          })
+        }
+      ></Marker>
 
       {loadJson()}
     </MapContainer>

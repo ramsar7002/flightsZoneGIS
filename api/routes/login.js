@@ -43,7 +43,6 @@ router.post(
   (req, res) => {
     console.log(req, res);
     if (req.body.username && req.body.password) {
-      console.log("fdf");
       // console.log(req.session);
       // aaaaa' ; DROP TABLE customers; --
       results = databaseConnection.query(
