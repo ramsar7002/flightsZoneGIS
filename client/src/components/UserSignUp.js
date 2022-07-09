@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Main from "./Main";
 // import SignIn from "./SignIn";
 import App from "./App";
 // import { Link } from "react-router-dom";
@@ -45,17 +46,21 @@ function UserSignUp() {
     if (res && res.status === 200) {
       // setAddUser(false);
       setUserCreated(true);
-      // setFirstName("");
-      // setLastName("");
-      // setMail("");
-      // setPhone("");
-      // setPassword("");
-      // setUserName("");
-      setSignUpErr(`Success!
+      setFirstName("");
+      setLastName("");
+      setMail("");
+      setPassword("");
+      setUserName("");
+      setSignUpErr(`המשתמש נרשם בהצלחה
         <a className="active item" href="/">
-          Home
+          עמוד הבית
         </a>
         `);
+      return (
+        <div className="ui">
+          <Main />
+        </div>
+      );
     }
   };
 
@@ -149,7 +154,7 @@ function UserSignUp() {
     setUserCreated(false);
     return (
       <div className="ui">
-        <App />
+        <Main />
       </div>
     );
   }
