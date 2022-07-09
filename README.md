@@ -8,7 +8,7 @@ feel free to use it and fly safe :)
 
 ## Preview video of app:
 
-https://youtu.be/jxh4QWxKO5M
+https://youtu.be/YmLK_KO4CgI
 
 
 Installaiton and configuration instructions are detailed below:
