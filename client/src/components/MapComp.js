@@ -48,7 +48,8 @@ const MapComp = (props) => {
   };
 
   const createMarkers = () => {
-    return locations?.map((item) =>
+    if (!locations) return;
+    return locations.map((item) =>
       item.wkt.map((coor, i) => {
         if (i % 200 === 0) {
           return (
@@ -70,8 +71,6 @@ const MapComp = (props) => {
               </Popup>
             </Marker>
           );
-        } else {
-          return <div></div>;
         }
       })
     );
